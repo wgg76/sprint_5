@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "nombre-del-proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.9"
+  }
+}

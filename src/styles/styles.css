@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #007bff; /* Color de texto azul */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40 !important; /* Color oscuro para la barra de navegación */
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff !important; /* Hover azul */
+}
+
+/* Contenedor */
+.container {
+    margin-top: 20px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table td {
+    background-color: white;
+}
+
+table td:hover {
+    background-color: #f8f9fa;
+}
+
+/* Botones */
+.btn {
+    margin: 5px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de estado */
+#statusMessage {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#statusMessage p {
+    text-align: center;
+}
+
+#statusMessage p.green {
+    color: green;
+}
+
+#statusMessage p.red {
+    color: red;
+}
